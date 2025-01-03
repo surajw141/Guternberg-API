@@ -1,0 +1,29 @@
+# Core Framework
+fastapi>=0.104.1
+uvicorn>=0.24.0
+pydantic>=2.5.2
+python-dotenv>=1.0.0
+
+# Database
+sqlalchemy>=2.0.23
+mysql-connector-python>=8.2.0
+pymysql>=1.1.0
+
+# API Documentation
+swagger-ui-bundle>=0.0.9
+
+# Utilities
+python-multipart>=0.0.6
+typing-extensions>=4.8.0
+email-validator>=2.1.0.post1
+
+# Production Server
+gunicorn>=21.2.0
+
+# CORS
+starlette>=0.27.0
+
+# Testing (optional)
+pytest>=7.4.3
+httpx>=0.25.2
+requests>=2.31.0
