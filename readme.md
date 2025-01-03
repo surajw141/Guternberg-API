@@ -1,3 +1,6 @@
+
+
+```markdown
 # Books API
 
 A FastAPI-based REST API for accessing and querying a books database. This API provides endpoints to search, filter, and retrieve information about books, authors, languages, and subjects.
@@ -23,7 +26,7 @@ A FastAPI-based REST API for accessing and querying a books database. This API p
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/surajw141/Guternberg-API.git
+git clone <repository-url>
 cd books-api
 ```
 
@@ -131,3 +134,15 @@ books-api/
 └── requirements.txt    # Project dependencies
 ```
 
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+```

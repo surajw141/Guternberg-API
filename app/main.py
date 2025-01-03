@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI, Query, HTTPException, Depends, Path
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional
@@ -7,6 +8,9 @@ import logging
 from .database import get_db
 from .models import Book, Author, Language, Subject
 from .schemas import BookResponse, AuthorResponse, LanguageResponse, SubjectResponse
+
+# Get port from environment variable
+port = int(os.environ.get("PORT", 8000))
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
