@@ -1,0 +1,11 @@
+Example: Quick API endpoint generation with AI
+@app.route('/get_books')
+@swag_from({...}) # AI generated Swagger documentation
+def get_books():
+# AI helped with query optimization and error handling
+try:
+# Complex query structure suggested by AI
+total_count, books = get_books_from_db(...)
+return jsonify(response_data)
+except Exception as e:
+return handle_error(e) # Error handling pattern from AI

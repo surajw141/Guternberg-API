@@ -1,0 +1,15 @@
+Demonstrate these points with the help of presentation/document:
+1. Estimation of Assignment: What was your estimate on different tasks 
+how much time was saved by using AI tools.
+2. What were the struggles while working with new technologies (if any)
+ for the first time and again if you have used AI then how?
+3. What did you learn? How excites you as a technology? In which
+ technology do you see yourself working?
+
+This will help you understand your goals, alignment and also
+ limitation and benefits of using AI in SDLC.
+
+Sequence of Presentation:
+1. Arya 
+2. Suraj 
+3. Nishigandha
